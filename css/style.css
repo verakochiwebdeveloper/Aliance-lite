@@ -1,0 +1,29 @@
+.navbar {
+    background: #000;
+}
+
+.logo {
+    padding: 25px 50px;
+}
+
+.header__nav {
+    flex-basis: 100%;
+    padding: 0 50px;
+    
+}
+.header__phone {
+    gap:10px;
+    flex-shrink: 0;
+}
+.header__phone-link {
+    margin-right: 50px;
+}
+
+.header__button {
+    padding: 34px 50px;
+}
+
+.header__nav-link {
+    margin-right: 50px;
+}
+
