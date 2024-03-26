@@ -77,15 +77,22 @@ a {
 }
 
 .--button {
-    background: #5C8EE5;
-    border:none;
-    color: #ffffff;
-    cursor: pointer;
-
+  background: #5c8ee5;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
 }
 
+.--link {
+    background: #5c8ee5;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
 .full-container {
-  width: 1920px;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 .container {
@@ -100,8 +107,7 @@ a {
 }
 
 .--main {
-    background: #5C8EE5;
-
+  background: #5c8ee5;
 }
 
 .--p {
@@ -116,4 +122,28 @@ a {
   font-size: 16px;
   font-weight: 600;
   line-height: 25.6px;
+}
+
+.--h1 {
+  font-family: 'Bebas Neue';
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 96px;
+  
+}
+
+.--line-blue {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.--line-blue:before {
+  content: " ";
+  position: absolute;
+  top: -30px;
+  left: 0;
+  background: #5c8ee5;
+  height: 2px;
+  width: 150px;
+  margin-bottom: 30px;
 }
