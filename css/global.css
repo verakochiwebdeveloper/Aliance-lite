@@ -84,11 +84,11 @@ a {
 }
 
 .--link {
-    background: #5c8ee5;
-    border: none;
-    color: #ffffff;
-    cursor: pointer;
-  }
+  background: #5c8ee5;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
 
 .full-container {
   max-width: 1140px;
@@ -110,6 +110,14 @@ a {
   background: #5c8ee5;
 }
 
+.--color-main {
+  color: #5c8ee5;
+}
+
+.--txt {
+  color:  #292D33;
+}
+
 .--p {
   font-family: "Noto Sans";
   font-size: 16px;
@@ -125,11 +133,24 @@ a {
 }
 
 .--h1 {
-  font-family: 'Bebas Neue';
+  font-family: "Bebas Neue";
   font-size: 80px;
   font-weight: 400;
   line-height: 96px;
-  
+}
+
+.--h2 {
+  font-family: "Bebas Neue";
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 72px;
+}
+
+.--h3 {
+  font-family: "Noto Sans";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 44.8px;
 }
 
 .--line-blue {
